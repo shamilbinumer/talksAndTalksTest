@@ -1,5 +1,6 @@
 // Navbar.jsx
-import React from 'react';
+import PropTypes from 'prop-types';
+// import React from 'react';
 import {
   AppBar,
   Toolbar,
@@ -50,5 +51,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     </AppBar>
   );
 };
-
+Navbar.propTypes = {
+    darkMode: PropTypes.bool.isRequired,
+    setDarkMode: PropTypes.func.isRequired
+  };
 export default Navbar;
