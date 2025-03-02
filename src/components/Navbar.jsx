@@ -20,7 +20,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <AppBar 
       position="static" 
       sx={{ 
-        bgcolor: '#f97316', // orange-500
+        bgcolor: '#f97316',
         boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)'
       }}
     >
